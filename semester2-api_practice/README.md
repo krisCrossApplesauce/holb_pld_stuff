@@ -1,0 +1,4 @@
+- Build an API with Python and Flask that has an endpoint which returns a random number between 1,000 and 1,000,000
+  - Build a web page that has a button to hit your local API to get the random number and then display it on the page
+- Build an API with Python and Flask that returns a JSON file containing today's date, today's weather (retrieved from an external API), a random number, and a random image from Unsplash (retrieved from an external API)
+  - Build a web page that has a button to hit your local API to get all of that data in JSON format and then display all of it on your page
