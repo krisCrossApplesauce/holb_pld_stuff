@@ -1,3 +1,4 @@
+const boing = new Audio('./assets/jump.mp3');
 
 function scrollThroughTrees(event) {
 	if (event.deltaY > 0) {
@@ -22,6 +23,9 @@ function scrollThroughTrees(event) {
 		console.log("scrolled down");
 	}
 
+	boing.load();
+	boing.playbackRate = 1.7;
+	boing.play();
 	console.log("function has been called");
 }
 
