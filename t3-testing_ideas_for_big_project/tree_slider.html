@@ -39,11 +39,17 @@
 		<script src="script.js"></script>
 	</head>
 
-	<body onwheel="scrollThroughTrees(event)">
+	<body onwheel="animateThroughTrees(event)">
 		<main>
 
 <!--  Tree Slider  -->
 			<div class="trees d-flex justify-content-center">
+
+				<div class="tree z--1 m-auto">
+					<div class="back_ground"></div>
+					<div class="ground"></div>
+				</div>
+
 				<div class="tree z-3 m-auto" id="tree-3">
 					<div class="ground"></div>
 					<div>
@@ -71,7 +77,7 @@
 					<!-- <div class="center">_________|</div> -->
 				</div>
 
-				<div class="tree z-0 m-auto" id="tree-0">
+				<div class="tree z-0 m-auto hide" id="tree-0">
 					<div class="ground"></div>
 					<div>
 						<div class="wood d"></div>
